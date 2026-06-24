@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Chen",
+    "slug": "sarah-chen",
+    "avatar": "/instructors/sarah.jpg",
+    "bio": "Sarah discovered yoga during her years as a professional dancer and has been teaching for over a decade. Her classes blend precise alignment with creative sequencing, making each session a unique journey.",
+    "certifications": ["RYT-500", "E-RYT 200", "Yoga Medicine 1000hr"],
+    "experience": 12,
+    "specializations": ["Vinyasa", "Meditation", "Prenatal"],
+    "rating": 4.9,
+    "reviewCount": 312,
+    "classCount": 245
+  },
+  {
+    "id": "2",
+    "name": "Mark Rivera",
+    "slug": "mark-rivera",
+    "avatar": "/instructors/mark.jpg",
+    "bio": "A former Marine who found healing through yoga, Mark specializes in trauma-informed teaching and advanced practices. His classes are challenging yet accessible, with a focus on mental resilience.",
+    "certifications": ["RYT-500", "Trauma-Informed Yoga", "Yin Yoga Certification"],
+    "experience": 8,
+    "specializations": ["Yin Yoga", "Ashtanga", "Trauma-Informed"],
+    "rating": 4.6,
+    "reviewCount": 198,
+    "classCount": 156
+  },
+  {
+    "id": "3",
+    "name": "Priya Sharma",
+    "slug": "priya-sharma",
+    "avatar": "/instructors/priya.jpg",
+    "bio": "Born in Rishikesh, India — the yoga capital of the world — Priya brings authentic Hatha and Iyengar traditions to every class. Her attention to alignment has helped thousands practice safely.",
+    "certifications": ["RYT-500", "Iyengar Certified", "Ayurveda Consultant"],
+    "experience": 15,
+    "specializations": ["Hatha", "Iyengar", "Beginner Yoga", "Prenatal"],
+    "rating": 4.9,
+    "reviewCount": 445,
+    "classCount": 389
+  },
+  {
+    "id": "4",
+    "name": "Jake Thompson",
+    "slug": "jake-thompson",
+    "avatar": "/instructors/jake.jpg",
+    "bio": "Jake combines his background in sports science with yoga to create high-performance classes that build real-world strength. Perfect for athletes and fitness enthusiasts looking to cross-train.",
+    "certifications": ["RYT-400", "NASM Certified", "Sports Yoga Specialist"],
+    "experience": 7,
+    "specializations": ["Power Yoga", "Strength Training", "Sports Yoga"],
+    "rating": 4.7,
+    "reviewCount": 234,
+    "classCount": 187
+  },
+  {
+    "id": "5",
+    "name": "Emma Wilson",
+    "slug": "emma-wilson",
+    "avatar": "/instructors/emma.jpg",
+    "bio": "Emma's gentle approach makes yoga accessible to everyone, regardless of age or fitness level. She specializes in therapeutic yoga and has helped countless students manage chronic pain.",
+    "certifications": ["RYT-500", "Yoga Therapy Certification", "Chair Yoga Specialist"],
+    "experience": 10,
+    "specializations": ["Restorative", "Chair Yoga", "Yoga Therapy", "Senior Yoga"],
+    "rating": 4.9,
+    "reviewCount": 167,
+    "classCount": 234
+  }
+]

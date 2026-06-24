@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "title": "Weight Loss Journey",
+    "slug": "weight-loss-journey",
+    "goal": "Cardio-focused yoga for fat burning and metabolism boost",
+    "description": "A dynamic 4-week program combining power yoga, vinyasa flows, and cardio intervals to accelerate fat loss while building lean muscle.",
+    "duration": "4 weeks",
+    "difficulty": "Intermediate",
+    "instructor": "Jake Thompson",
+    "thumbnail": "/programs/weight-loss.jpg",
+    "totalClasses": 16,
+    "classesPerWeek": 4,
+    "tags": ["weight loss", "cardio", "strength"],
+    "weeklyPlan": [
+      { "week": 1, "theme": "Foundation & Metabolism", "classes": ["Power Yoga Basics", "Cardio Flow", "Core Ignition", "Restorative Stretch"] },
+      { "week": 2, "theme": "Building Intensity", "classes": ["HIIT Yoga", "Strength Flow", "Cardio Vinyasa", "Active Recovery"] },
+      { "week": 3, "theme": "Peak Week", "classes": ["Advanced Power", "Endurance Flow", "HIIT Fusion", "Yin Recovery"] },
+      { "week": 4, "theme": "Transformation & Integration", "classes": ["Full Power Practice", "Metabolism Boost", "Flow Marathon", "Celebration Flow"] }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Beginner Journey",
+    "slug": "beginner-journey",
+    "goal": "Foundation skills for first-time practitioners",
+    "description": "Start your yoga journey with confidence. This 6-week program introduces fundamental poses, breathing techniques, and mindfulness practices in a supportive, step-by-step approach.",
+    "duration": "6 weeks",
+    "difficulty": "Beginner",
+    "instructor": "Priya Sharma",
+    "thumbnail": "/programs/beginner.jpg",
+    "totalClasses": 18,
+    "classesPerWeek": 3,
+    "tags": ["beginner", "foundations", "mindfulness"],
+    "weeklyPlan": [
+      { "week": 1, "theme": "Breath & Presence", "classes": ["Introduction to Breath", "Basic Standing Poses", "Relaxation Techniques"] },
+      { "week": 2, "theme": "Building Strength", "classes": ["Core Foundations", "Arm Basics", "Leg Strength"] },
+      { "week": 3, "theme": "Flexibility Focus", "classes": ["Forward Folds", "Hip Openers", "Spinal Twists"] },
+      { "week": 4, "theme": "Balance & Stability", "classes": ["Standing Balances", "Core Integration", "Flow Foundations"] },
+      { "week": 5, "theme": "Flowing with Confidence", "classes": ["Sun Salutations", "Gentle Vinyasa", "Inversions Intro"] },
+      { "week": 6, "theme": "Your Practice", "classes": ["Full Practice Flow", "Mindful Meditation", "Graduation Flow"] }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Mindfulness Program",
+    "slug": "mindfulness-program",
+    "goal": "Meditation and mental clarity focus",
+    "description": "A 30-day journey into mindfulness through meditation, breathwork, and gentle movement. Reduce stress, improve focus, and cultivate inner peace.",
+    "duration": "30 days",
+    "difficulty": "Beginner",
+    "instructor": "Sarah Chen",
+    "thumbnail": "/programs/mindfulness.jpg",
+    "totalClasses": 30,
+    "classesPerWeek": 7,
+    "tags": ["meditation", "mindfulness", "stress relief"],
+    "weeklyPlan": [
+      { "week": 1, "theme": "Arriving", "classes": ["Body Scan", "Breath Awareness", "Mindful Walking", "Loving Kindness", "Sound Meditation", "Gratitude Practice", "Integration"] },
+      { "week": 2, "theme": "Deepening", "classes": ["Focus Training", "Emotional Awareness", "Thought Observation", "Compassion Practice", "Yoga Nidra", "Silent Sitting", "Journaling"] },
+      { "week": 3, "theme": "Resilience", "classes": ["Stress Response", "Mindful Communication", "Difficult Emotions", "Self-Compassion", "Body Wisdom", "Forgiveness", "Inner Strength"] },
+      { "week": 4, "theme": "Integration", "classes": ["Daily Mindfulness", "Relationships", "Work & Focus", "Nature Connection", "Gratitude Deepening", "Community", "Celebration"] }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Flexibility Program",
+    "slug": "flexibility-program",
+    "goal": "Stretching and mobility improvement",
+    "description": "Systematically increase your flexibility with targeted stretching routines. This 5-week program focuses on major muscle groups and joint mobility.",
+    "duration": "5 weeks",
+    "difficulty": "All Levels",
+    "instructor": "Emma Wilson",
+    "thumbnail": "/programs/flexibility.jpg",
+    "totalClasses": 15,
+    "classesPerWeek": 3,
+    "tags": ["flexibility", "mobility", "stretching"],
+    "weeklyPlan": [
+      { "week": 1, "theme": "Upper Body Opening", "classes": ["Shoulder Release", "Neck & Upper Back", "Chest Openers"] },
+      { "week": 2, "theme": "Lower Body Release", "classes": ["Hamstring Focus", "Hip Opening", "Quad & Psoas"] },
+      { "week": 3, "theme": "Spinal Mobility", "classes": ["Cat-Cow Flow", "Spinal Twists", "Backbends Intro"] },
+      { "week": 4, "theme": "Deep Stretching", "classes": ["Yin Yoga Deep", "Passive Stretching", "PNF Techniques"] },
+      { "week": 5, "theme": "Full Body Integration", "classes": ["Full Body Flow", "Dynamic Flexibility", "Maintenance Practice"] }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Strength & Mobility",
+    "slug": "strength-mobility",
+    "goal": "Muscle building with yoga principles",
+    "description": "Combine yoga's functional strength with modern mobility training. Build real-world strength while maintaining full range of motion.",
+    "duration": "6 weeks",
+    "difficulty": "Intermediate",
+    "instructor": "Jake Thompson",
+    "thumbnail": "/programs/strength.jpg",
+    "totalClasses": 18,
+    "classesPerWeek": 3,
+    "tags": ["strength", "mobility", "functional"],
+    "weeklyPlan": [
+      { "week": 1, "theme": "Foundation Strength", "classes": ["Core Foundation", "Upper Body Primer", "Lower Body Basics"] },
+      { "week": 2, "theme": "Upper Body Power", "classes": ["Arm Balances", "Chest & Shoulders", "Back Strength"] },
+      { "week": 3, "theme": "Lower Body Power", "classes": ["Leg Strength", "Glute Activation", "Balance & Stability"] },
+      { "week": 4, "theme": "Core Mastery", "classes": ["Deep Core", "Rotational Strength", "Plank Variations"] },
+      { "week": 5, "theme": "Mobility & Recovery", "classes": ["Joint Mobility", "Active Flexibility", "Recovery Flow"] },
+      { "week": 6, "theme": "Integration", "classes": ["Full Body Strength", "Power & Poise", "Strength Celebration"] }
+    ]
+  }
+]
