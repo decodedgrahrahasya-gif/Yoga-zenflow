@@ -124,7 +124,7 @@ function PricingPreview() {
                   <Button
                     variant={plan.popular ? "default" : "outline"}
                     className="w-full"
-                    render={<Link href="/pricing" />}
+                    nativeButton={false} render={<Link href="/pricing" />}
                   >
                     Get Started
                   </Button>

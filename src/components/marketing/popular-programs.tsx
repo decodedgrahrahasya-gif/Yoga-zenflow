@@ -69,7 +69,7 @@ function PopularPrograms() {
                   <Badge variant="secondary">{program.difficulty}</Badge>
                 </CardContent>
                 <CardFooter>
-                  <Button variant="ghost" size="sm" className="gap-1" render={<Link href={`/programs/${program.slug}`} />}>
+                  <Button variant="ghost" size="sm" className="gap-1" nativeButton={false} render={<Link href={`/programs/${program.slug}`} />}>
                     Learn More
                     <ArrowRight className="size-4" />
                   </Button>

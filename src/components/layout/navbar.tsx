@@ -63,10 +63,10 @@ function Navbar() {
         </div>
 
         <div className="hidden items-center gap-2 md:flex">
-          <Button variant="ghost" render={<Link href="/sign-in" />}>
+          <Button variant="ghost" nativeButton={false} render={<Link href="/sign-in" />}>
             Sign in
           </Button>
-          <Button className="bg-[#0A3B2C] text-white hover:bg-[#072A1F] rounded-none" render={<Link href="/pricing" />}>
+          <Button className="bg-[#0A3B2C] text-white hover:bg-[#072A1F] rounded-none" nativeButton={false} render={<Link href="/pricing" />}>
             Begin trial <ArrowUpRight className="ml-1 size-4" />
           </Button>
         </div>
@@ -98,10 +98,10 @@ function Navbar() {
                 </Link>
               ))}
               <hr className="my-2 border-border" />
-              <Button variant="ghost" className="justify-start" render={<Link href="/sign-in" onClick={() => setMobileOpen(false)} />}>
+              <Button variant="ghost" className="justify-start" nativeButton={false} render={<Link href="/sign-in" onClick={() => setMobileOpen(false)} />}>
                 Sign In
               </Button>
-              <Button className="justify-start" render={<Link href="/pricing" onClick={() => setMobileOpen(false)} />}>
+              <Button className="justify-start" nativeButton={false} render={<Link href="/pricing" onClick={() => setMobileOpen(false)} />}>
                 Start Free Trial
               </Button>
             </div>
