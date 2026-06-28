@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
+import { ObjectId } from "mongodb"
 import { getDatabase } from "@/lib/mongodb"
 
 export async function POST(request: NextRequest) {
@@ -37,7 +38,6 @@ export async function GET(request: NextRequest) {
     const collection = db.collection("enquiries")
 
     if (id) {
-      const { ObjectId } = await import("mongodb")
       const enquiry = await collection.findOne({ _id: new ObjectId(id) })
       if (!enquiry) {
         return NextResponse.json(
@@ -83,7 +83,6 @@ export async function PUT(request: NextRequest) {
     }
 
     const body = await request.json()
-    const { ObjectId } = await import("mongodb")
     const db = await getDatabase()
     const collection = db.collection("enquiries")
 
@@ -123,7 +122,6 @@ export async function DELETE(request: NextRequest) {
       )
     }
 
-    const { ObjectId } = await import("mongodb")
     const db = await getDatabase()
     const collection = db.collection("enquiries")
 
