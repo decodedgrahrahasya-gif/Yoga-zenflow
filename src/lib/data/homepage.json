@@ -1,0 +1,521 @@
+{
+  "title": {
+    "en": "Home"
+  },
+  "slug": "home",
+  "isPublished": true,
+  "metaTitle": {
+    "en": "ZenFlow Yoga — Transform Your Mind, Body & Spirit"
+  },
+  "metaDescription": {
+    "en": "Join live yoga classes, guided meditation sessions, and personalized wellness programs designed for every level."
+  },
+  "content": [
+    {
+      "id": "hero-section",
+      "type": "section",
+      "layout": "full",
+      "adminTitle": "Hero",
+      "props": {
+        "label": {
+          "en": "ZenFlow Yoga"
+        },
+        "heading": {
+          "en": "Find your<br /><span class=\"grad-text\">inner peace.</span>"
+        },
+        "description": {
+          "en": "Transform your mind, body, and spirit with live yoga classes, guided meditation, and personalized wellness programs."
+        },
+        "primaryButton": {
+          "en": "Begin Your Journey"
+        },
+        "primaryButtonLink": "/classes",
+        "secondaryButton": {
+          "en": "Explore Programs"
+        },
+        "secondaryButtonLink": "/programs",
+        "metaItems": [
+          {
+            "text": { "en": "Live · Online Classes" },
+            "hasDot": true
+          },
+          {
+            "text": { "en": "Expert Instructors" }
+          },
+          {
+            "text": { "en": "30-Day Free Trial" }
+          }
+        ],
+        "scrollHint": {
+          "en": "Scroll"
+        }
+      },
+      "content": [
+        {
+          "id": "stat-1",
+          "type": "item",
+          "props": {
+            "key": { "en": "Active Members" },
+            "value": { "en": "12,000+" },
+            "isCount": true
+          }
+        },
+        {
+          "id": "stat-2",
+          "type": "item",
+          "props": {
+            "key": { "en": "Classes Monthly" },
+            "value": { "en": "400+" },
+            "isCount": true
+          }
+        },
+        {
+          "id": "stat-3",
+          "type": "item",
+          "props": {
+            "key": { "en": "Years Experience" },
+            "value": { "en": "10+" },
+            "isCount": false
+          }
+        },
+        {
+          "id": "stat-4",
+          "type": "item",
+          "props": {
+            "key": { "en": "Expert Instructors" },
+            "value": { "en": "50+" },
+            "dataCount": "50",
+            "isCount": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "practice-section",
+      "type": "section",
+      "layout": "two-column",
+      "adminTitle": "Our Practice",
+      "props": {
+        "label": {
+          "en": "01 · Our Practice"
+        },
+        "heading": {
+          "en": "Yoga for every<br /><span class=\"grad-text\">body and mind.</span>"
+        },
+        "description": {
+          "en": "Whether you're a beginner or an experienced practitioner, our diverse range of classes meets you where you are."
+        },
+        "tags": [
+          { "text": { "en": "Hatha" } },
+          { "text": { "en": "Vinyasa" } },
+          { "text": { "en": "Ashtanga" } },
+          { "text": { "en": "Kundalini" } },
+          { "text": { "en": "Yin" } },
+          { "text": { "en": "Meditation" } }
+        ]
+      },
+      "content": [
+        {
+          "id": "p1",
+          "type": "item",
+          "props": {
+            "key": { "en": "Styles" },
+            "value": { "en": "Hatha, Vinyasa, Ashtanga, Kundalini, Yin" }
+          }
+        },
+        {
+          "id": "p2",
+          "type": "item",
+          "props": {
+            "key": { "en": "Levels" },
+            "value": { "en": "Beginner, Intermediate, Advanced" }
+          }
+        },
+        {
+          "id": "p3",
+          "type": "item",
+          "props": {
+            "key": { "en": "Duration" },
+            "value": { "en": "30, 45, 60, 90 minute sessions" }
+          }
+        },
+        {
+          "id": "p4",
+          "type": "item",
+          "props": {
+            "key": { "en": "Format" },
+            "value": { "en": "Live Online, On-Demand, In-Studio" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "classes-section",
+      "type": "section",
+      "layout": "grid",
+      "adminTitle": "Classes",
+      "props": {
+        "label": {
+          "en": "02 · Classes"
+        },
+        "heading": {
+          "en": "Explore our<br /><span class=\"grad-text\">signature classes.</span>"
+        },
+        "description": {
+          "en": "From sunrise flows to evening restorative sessions, find the perfect practice for your schedule."
+        }
+      },
+      "content": [
+        {
+          "id": "c1",
+          "type": "item",
+          "props": {
+            "code": "FLOW",
+            "name": { "en": "Morning Flow" },
+            "desc": { "en": "Energizing Vinyasa sequence to start your day with intention and movement." }
+          }
+        },
+        {
+          "id": "c2",
+          "type": "item",
+          "props": {
+            "code": "REST",
+            "name": { "en": "Restorative Yoga" },
+            "desc": { "en": "Slow, supported poses that promote deep relaxation and stress relief." }
+          }
+        },
+        {
+          "id": "c3",
+          "type": "item",
+          "props": {
+            "code": "PWR",
+            "name": { "en": "Power Yoga" },
+            "desc": { "en": "Dynamic, strength-building practice for experienced practitioners." }
+          }
+        },
+        {
+          "id": "c4",
+          "type": "item",
+          "props": {
+            "code": "MED",
+            "name": { "en": "Guided Meditation" },
+            "desc": { "en": "Mindfulness and breathing techniques to cultivate inner calm." }
+          }
+        }
+      ]
+    },
+    {
+      "id": "benefits-section",
+      "type": "section",
+      "layout": "cards",
+      "adminTitle": "Benefits",
+      "props": {
+        "label": {
+          "en": "03 · Benefits"
+        },
+        "heading": {
+          "en": "Why practice<br /><span class=\"grad-text\">with ZenFlow?</span>"
+        },
+        "description": {
+          "en": "Our holistic approach to wellness goes beyond the mat, nurturing every aspect of your wellbeing."
+        }
+      },
+      "content": [
+        {
+          "id": "b1",
+          "type": "item",
+          "props": {
+            "icon": "brain",
+            "title": { "en": "Mental Clarity" },
+            "desc": { "en": "Reduce anxiety and improve focus through mindful movement and breath work." }
+          }
+        },
+        {
+          "id": "b2",
+          "type": "item",
+          "props": {
+            "icon": "heart",
+            "title": { "en": "Physical Health" },
+            "desc": { "en": "Build strength, increase flexibility, and improve cardiovascular health." }
+          }
+        },
+        {
+          "id": "b3",
+          "type": "item",
+          "props": {
+            "icon": "users",
+            "title": { "en": "Community" },
+            "desc": { "en": "Connect with like-minded individuals in our supportive wellness community." }
+          }
+        },
+        {
+          "id": "b4",
+          "type": "item",
+          "props": {
+            "icon": "sparkles",
+            "title": { "en": "Personalized Path" },
+            "desc": { "en": "Tailored programs that adapt to your goals, experience, and schedule." }
+          }
+        }
+      ]
+    },
+    {
+      "id": "instructors-section",
+      "type": "section",
+      "layout": "marquee",
+      "adminTitle": "Instructors",
+      "props": {
+        "label": {
+          "en": "04 · Instructors"
+        },
+        "heading": {
+          "en": "Learn from<br /><span class=\"grad-text\">world-class teachers.</span>"
+        },
+        "description": {
+          "en": "Our certified instructors bring decades of combined experience and a passion for guiding your practice."
+        }
+      },
+      "content": [
+        {
+          "id": "i1",
+          "type": "item",
+          "props": {
+            "tag": "E-RYT 500",
+            "title": { "en": "Sarah Mitchell" },
+            "desc": { "en": "Vinyasa & Hatha specialist with 15 years of teaching experience." },
+            "image": "/images/instructors/sarah.jpg"
+          }
+        },
+        {
+          "id": "i2",
+          "type": "item",
+          "props": {
+            "tag": "E-RYT 500",
+            "title": { "en": "David Chen" },
+            "desc": { "en": "Power Yoga and Ashtanga instructor, former professional athlete." },
+            "image": "/images/instructors/david.jpg"
+          }
+        },
+        {
+          "id": "i3",
+          "type": "item",
+          "props": {
+            "tag": "RYT 300",
+            "title": { "en": "Priya Sharma" },
+            "desc": { "en": "Kundalini and Meditation guide with a background in Ayurveda." },
+            "image": "/images/instructors/priya.jpg"
+          }
+        },
+        {
+          "id": "i4",
+          "type": "item",
+          "props": {
+            "tag": "RYT 500",
+            "title": { "en": "Marcus Johnson" },
+            "desc": { "en": "Yin and Restorative specialist focusing on trauma-informed practice." },
+            "image": "/images/instructors/marcus.jpg"
+          }
+        },
+        {
+          "id": "i5",
+          "type": "item",
+          "props": {
+            "tag": "E-RYT 500",
+            "title": { "en": "Elena Torres" },
+            "desc": { "en": "Prenatal Yoga and gentle flow expert with 12 years experience." },
+            "image": "/images/instructors/elena.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "testimonials-section",
+      "type": "section",
+      "layout": "cards",
+      "adminTitle": "Testimonials",
+      "props": {
+        "label": {
+          "en": "05 · Testimonials"
+        },
+        "heading": {
+          "en": "What our<br /><span class=\"grad-text\">community says.</span>"
+        },
+        "description": {
+          "en": "Hear from members who have transformed their lives through our programs."
+        }
+      },
+      "content": [
+        {
+          "id": "t1",
+          "type": "item",
+          "props": {
+            "quote": { "en": "ZenFlow completely changed my relationship with my body. The instructors are incredibly supportive and the community is unlike anything I've experienced." },
+            "author": { "en": "Amanda K." },
+            "role": { "en": "Member since 2022" }
+          }
+        },
+        {
+          "id": "t2",
+          "type": "item",
+          "props": {
+            "quote": { "en": "I started as a complete beginner and within three months I was flowing through sequences I never thought possible." },
+            "author": { "en": "James R." },
+            "role": { "en": "Member since 2023" }
+          }
+        },
+        {
+          "id": "t3",
+          "type": "item",
+          "props": {
+            "quote": { "en": "The meditation programs helped me manage my anxiety in ways therapy alone couldn't. Truly life-changing." },
+            "author": { "en": "Maya L." },
+            "role": { "en": "Member since 2021" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "membership-section",
+      "type": "section",
+      "layout": "grid",
+      "adminTitle": "Membership",
+      "props": {
+        "label": {
+          "en": "06 · Membership"
+        },
+        "heading": {
+          "en": "Choose your<br /><span class=\"grad-text\">wellness path.</span>"
+        },
+        "description": {
+          "en": "Flexible plans designed to fit your lifestyle, all with a 30-day money-back guarantee."
+        }
+      },
+      "content": [
+        {
+          "id": "m1",
+          "type": "item",
+          "props": {
+            "code": "BASIC",
+            "name": { "en": "Basic" },
+            "price": { "en": "$19/month" },
+            "desc": { "en": "Access to on-demand classes and guided meditation library." },
+            "features": [
+              { "en": "200+ On-Demand Classes" },
+              { "en": "Meditation Library" },
+              { "en": "Community Access" }
+            ]
+          }
+        },
+        {
+          "id": "m2",
+          "type": "item",
+          "props": {
+            "code": "PREMIUM",
+            "name": { "en": "Premium" },
+            "price": { "en": "$39/month" },
+            "desc": { "en": "Unlimited live classes plus everything in Basic." },
+            "features": [
+              { "en": "Unlimited Live Classes" },
+              { "en": "All On-Demand Content" },
+              { "en": "Personal Progress Tracking" },
+              { "en": "Private Community Groups" }
+            ]
+          }
+        },
+        {
+          "id": "m3",
+          "type": "item",
+          "props": {
+            "code": "UNLIMITED",
+            "name": { "en": "Unlimited" },
+            "price": { "en": "$69/month" },
+            "desc": { "en": "Everything plus 1-on-1 coaching and in-studio access." },
+            "features": [
+              { "en": "Everything in Premium" },
+              { "en": "1-on-1 Coaching Sessions" },
+              { "en": "In-Studio Access" },
+              { "en": "Workshop Discounts" },
+              { "en": "Nutrition & Wellness Plans" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "studio-section",
+      "type": "section",
+      "layout": "two-column",
+      "adminTitle": "Our Studio",
+      "props": {
+        "label": {
+          "en": "07 · Our Studio"
+        },
+        "heading": {
+          "en": "A sanctuary in the<br /><span class=\"grad-text\">heart of the city.</span>"
+        },
+        "description": {
+          "en": "Our flagship studio in San Francisco offers a serene environment designed for deep practice and community connection."
+        }
+      },
+      "content": [
+        {
+          "id": "s1",
+          "type": "item",
+          "props": {
+            "key": { "en": "Location" },
+            "value": { "en": "124 Wellness Ave, San Francisco" }
+          }
+        },
+        {
+          "id": "s2",
+          "type": "item",
+          "props": {
+            "key": { "en": "Capacity" },
+            "value": { "en": "Up to 40 practitioners per session" }
+          }
+        },
+        {
+          "id": "s3",
+          "type": "item",
+          "props": {
+            "key": { "en": "Amenities" },
+            "value": { "en": "Mats, props, showers, tea bar, retail shop" }
+          }
+        },
+        {
+          "id": "s4",
+          "type": "item",
+          "props": {
+            "key": { "en": "Hours" },
+            "value": { "en": "Mon–Fri 6am–9pm · Sat–Sun 7am–7pm" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "section",
+      "layout": "full",
+      "adminTitle": "Call to Action",
+      "props": {
+        "label": {
+          "en": "Begin Today"
+        },
+        "heading": {
+          "en": "Start your<br /><span class=\"grad-text\">transformation.</span>"
+        },
+        "description": {
+          "en": "Join thousands of members who have made yoga a cornerstone of their wellness journey."
+        },
+        "primaryButton": {
+          "en": "Claim Free Trial"
+        },
+        "primaryButtonLink": "/sign-up",
+        "secondaryButton": {
+          "en": "View Programs"
+        },
+        "secondaryButtonLink": "/programs"
+      }
+    }
+  ]
+}
