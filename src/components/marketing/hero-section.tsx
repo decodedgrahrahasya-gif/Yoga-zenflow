@@ -16,14 +16,16 @@ type Slide = {
   alt: string
 }
 
+const brandHeadline = "Yoga in San Francisco for calmer mornings, stronger bodies, and steadier minds."
+const brandSubtext = "Join beginner-friendly and advanced classes led by certified instructors in a peaceful studio space. First class free — no credit card required."
+
 const slides: Slide[] = [
   {
     id: "tree",
     pose: "Tree Pose",
     sanskrit: "Vrksasana",
-    title: "Rooted in stillness, reaching for light",
-    description:
-      "Cultivate balance and quiet focus. Tree Pose grounds your body while lifting the spirit toward calm.",
+    title: brandHeadline,
+    description: brandSubtext,
     image: "/images/tree-pose.png",
     alt: "Woman practicing Tree Pose in a sunlit minimalist studio",
   },
@@ -31,9 +33,8 @@ const slides: Slide[] = [
     id: "warrior",
     pose: "Warrior II",
     sanskrit: "Virabhadrasana II",
-    title: "Strength held with a gentle gaze",
-    description:
-      "Open the hips, steady the breath, and find power in patience. Warrior II builds grounded confidence.",
+    title: brandHeadline,
+    description: brandSubtext,
     image: "/images/warrior-2.png",
     alt: "Woman practicing Warrior II Pose in soft natural light",
   },
@@ -41,9 +42,8 @@ const slides: Slide[] = [
     id: "lotus",
     pose: "Lotus Pose",
     sanskrit: "Padmasana",
-    title: "Where breath becomes meditation",
-    description:
-      "Settle into seated serenity. Lotus Pose invites a tranquil mind and an unhurried, centered presence.",
+    title: brandHeadline,
+    description: brandSubtext,
     image: "/images/lotus-pose.png",
     alt: "Woman meditating in Lotus Pose with eyes closed",
   },
@@ -51,9 +51,8 @@ const slides: Slide[] = [
     id: "downward-dog",
     pose: "Downward Dog",
     sanskrit: "Adho Mukha Svanasana",
-    title: "Lengthen, release, renew",
-    description:
-      "A restorative inversion that energizes the whole body while soothing the mind into clarity.",
+    title: brandHeadline,
+    description: brandSubtext,
     image: "/images/downward-dog.png",
     alt: "Woman practicing Downward Dog Pose in a calm studio",
   },
@@ -61,9 +60,8 @@ const slides: Slide[] = [
     id: "childs",
     pose: "Child's Pose",
     sanskrit: "Balasana",
-    title: "The art of letting go",
-    description:
-      "Return to rest. Child's Pose offers a quiet surrender, a soft place to breathe and simply be.",
+    title: brandHeadline,
+    description: brandSubtext,
     image: "/images/childs-pose.png",
     alt: "Woman resting in Child's Pose on a yoga mat",
   },
@@ -176,16 +174,16 @@ export function HeroSection() {
                     <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                       <Button
                         size="lg"
-                        className="bg-background text-foreground hover:bg-background/90"
+                        className="bg-[#C5A059] text-white hover:bg-[#B38F46]"
                       >
-                        Begin your practice
+                        Book your first class
                       </Button>
                       <Button
                         size="lg"
                         variant="outline"
                         className="border-background/40 bg-transparent text-background hover:bg-background/10 hover:text-background"
                       >
-                        Explore classes
+                        View this week&apos;s schedule
                       </Button>
                     </div>
                   </>

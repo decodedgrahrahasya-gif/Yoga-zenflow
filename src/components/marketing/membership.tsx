@@ -3,45 +3,48 @@ import { Check } from "lucide-react"
 
 const plans = [
   {
-    name: "Seeker",
-    price: "Free",
-    period: "14-day trial · no card",
-    href: "/sign-up",
-    cta: "Begin trial ↗",
+    name: "Free Trial",
+    bestFor: "Best for: first-timers",
+    price: "$0",
+    period: "first class free · no card",
+    href: "/classes",
+    cta: "Book your free class ↗",
     ctaClass: "border border-[#0A3B2C]/20 text-[#0A3B2C] hover:border-[#0A3B2C]",
     featured: false,
-    features: ["Daily morning flow", "5 foundational classes", "Sleep meditations", "Community circle"],
+    features: ["1 free class", "Full studio access", "Mats & props provided", "No credit card required"],
   },
   {
-    name: "Practitioner",
-    price: "$24",
-    period: "per month · billed annually",
+    name: "Premium",
+    bestFor: "Best for: regular practitioners",
+    price: "$39",
+    period: "per month · save 30% vs drop-in",
     href: "/pricing",
-    cta: "Choose Practitioner ↗",
+    cta: "Choose Premium ↗",
     ctaClass: "bg-[#C5A059] text-white hover:bg-[#B38F46]",
     featured: true,
     features: [
-      "Unlimited classes & programs",
-      "AI-personalised sequencing",
-      "Biometric integrations",
-      "Live weekly sessions",
-      "Wellness journal & insights",
+      "Unlimited live classes",
+      "200+ on-demand classes",
+      "Progress tracking",
+      "Private community groups",
+      "Workshop discounts",
     ],
   },
   {
-    name: "Devotee",
-    price: "$58",
+    name: "Unlimited",
+    bestFor: "Best for: dedicated practitioners · save 40%",
+    price: "$69",
     period: "per month · 1:1 included",
     href: "/pricing",
-    cta: "Choose Devotee ↗",
+    cta: "Choose Unlimited ↗",
     ctaClass: "border border-[#0A3B2C]/20 text-[#0A3B2C] hover:border-[#0A3B2C]",
     featured: false,
     features: [
-      "Everything in Practitioner",
-      "2x monthly 1:1 with a master",
-      "Personal program design",
-      "Annual retreat priority",
-      "Concierge support",
+      "Everything in Premium",
+      "Monthly 1-on-1 coaching",
+      "In-studio access",
+      "Exclusive workshops",
+      "Nutrition & wellness plans",
     ],
   },
 ]
@@ -72,13 +75,16 @@ export function Membership() {
           >
             {plan.featured && (
               <div className="absolute top-8 right-8 border border-[#C5A059]/30 text-[#C5A059] text-[9px] uppercase tracking-widest px-3 py-1">
-                Most Chosen
+                Most Popular
               </div>
             )}
             <div>
-              <h3 className={`font-serif-zf text-2xl mb-8 ${plan.featured ? "text-white" : "text-[#0A3B2C]"}`}>
+              <h3 className={`font-serif-zf text-2xl mb-1 ${plan.featured ? "text-white" : "text-[#0A3B2C]"}`}>
                 {plan.name}
               </h3>
+              <p className={`text-[10px] tracking-wider uppercase mb-8 ${plan.featured ? "text-[#C5A059]/80" : "text-[#C5A059]"}`}>
+                {plan.bestFor}
+              </p>
               <div className="mb-6">
                 <span className={`${plan.featured ? "text-5xl text-white" : "text-4xl text-[#0A3B2C]"}`}>
                   {plan.price}
